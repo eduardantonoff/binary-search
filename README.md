@@ -1,20 +1,20 @@
 # MIPT Project 1 : Number Guessing & Binary Search
 
 ### Contents <a name="contents"></a>
-[1. About](.README.md#about)  
-[2. Why?](.README.md#Какой-кейс-решаем)  
-[4. Process](.README.md#Этапы-работы-над-проектом)  
-[5. Results](.README.md#Результат)    
-[6. Conclusions](#conclusions) 
+[1. About](#about)  
+[2. Why?](#why)  
+[3. Process](#process)  
+[4. Results](#results)    
+[5. Conclusions](#conclusions) 
 
 ### About <a name="about"></a>
 > **Note**
-> This is a learning expirience.
+> This is a learning experience.
 
   
 *Угадать загаданное компьютером число за минимальное число попыток.*
 
-### Why?    
+### Why? <a name="why"></a>   
 Нужно написать программу, которая угадывает число за минимальное число попыток
 
 **Условия соревнования:**  
@@ -25,11 +25,10 @@
 Результаты оцениваются по среднему количеству попыток при 1000 повторений
 
 **Что практикуем**     
+- Учимся писать хороший код на Python
 
-+ `Учимся писать хороший код на python`
 
-
-### Process
+### Process <a name="process"></a>
 
 <mark>Двоичный (бинарный)</mark> поиск (также известен как метод деления пополам или дихотомия) — классический алгоритм поиска элемента в отсортированном массиве (векторе), использующий дробление массива на половины. 
 
@@ -55,17 +54,3 @@ def binary_search(list, key):
             low = mid + 1
 
     return 'not found'
-```
-</details>
-
-
-
-### Results:  
-....
-
-
-### Conclusions: <a name="conclusions"></a>
-....
-
-
-[To begining](#contents)
