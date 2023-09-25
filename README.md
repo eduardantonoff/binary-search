@@ -11,9 +11,6 @@
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.
 
-[K оглавлению](.README.md#Оглавление)
-
-
 ### Какой кейс решаем?    
 Нужно написать программу, которая угадывает число за минимальное число попыток
 
@@ -25,7 +22,8 @@
 Результаты оцениваются по среднему количеству попыток при 1000 повторений
 
 **Что практикуем**     
-Учимся писать хороший код на python
+
++ `Учимся писать хороший код на python`
 
 
 ### Краткая информация о данных
@@ -36,29 +34,30 @@
 _Визуализация бинарного поиска по массиву. Искомое число — 7._
 
 
+
+
 <details><summary><b>Пример реализации:</b></summary>
 
-```SConstruct
-    def binary_search(list, key):
-        low = 0
-        high = len(list) - 1
+```py
+def binary_search(list, key):
+    low = 0
+    high = len(list) - 1
 
-        while low <= high:
-            mid = (low + high) // 2
-            midVal = list[mid]
-            if midVal == key:
-                return mid
-            if midVal > key:
-                high = mid - 1
-            else:
-                low = mid + 1
+    while low <= high:
+        mid = (low + high) // 2
+        midVal = list[mid]
+        if midVal == key:
+            return mid
+        if midVal > key:
+            high = mid - 1
+        else:
+            low = mid + 1
 
-        return 'not found'
+    return 'not found'
 ```
 </details>
 
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
 
 
 ### Этапы работы над проектом  
