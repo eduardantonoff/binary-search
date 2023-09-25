@@ -30,19 +30,15 @@
 
 ### Краткая информация о данных
 
-- [x] Write a blog
-- [x] Make it interesting
-- [ ] Publish it
-
-[Link to Portfolio Website](https://gaganpreetkaurkalsi.netlify.app “My Portfolio Website”)
-
-Двоичный (бинарный) поиск (также известен как метод деления пополам или дихотомия) — классический алгоритм поиска элемента в отсортированном массиве (векторе), использующий дробление массива на половины. 
+<mark>Двоичный (бинарный)</mark> поиск (также известен как метод деления пополам или дихотомия) — классический алгоритм поиска элемента в отсортированном массиве (векторе), использующий дробление массива на половины. 
 
 ![Image](binary_search_depiction.png)
-_Visualization of the binary search algorithm where 7 is the target value._
+_Визуализация бинарного поиска по массиву. Искомое число — 7._
 
-Пример реализации:
 
+<details><summary><b>Пример реализации:</b></summary>
+
+```SConstruct
     def binary_search(list, key):
         low = 0
         high = len(list) - 1
@@ -58,8 +54,10 @@ _Visualization of the binary search algorithm where 7 is the target value._
                 low = mid + 1
 
         return 'not found'
+```
+</details>
 
-  
+
 :arrow_up:[к оглавлению](.README.md#Оглавление)
 
 
