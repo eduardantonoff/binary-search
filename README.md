@@ -11,7 +11,7 @@
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.
 
-:arrow_up:[к оглавлению](_)
+[K оглавлению](.README.md#Оглавление)
 
 
 ### Какой кейс решаем?    
@@ -30,22 +30,26 @@
 
 ### Краткая информация о данных
 
+Двоичный (бинарный) поиск (также известен как метод деления пополам или дихотомия) — классический алгоритм поиска элемента в отсортированном массиве (векторе), использующий дробление массива на половины. 
+
 Пример реализации:
 
-def binary_search(list, key):
-    low = 0
-    high = len(list) - 1
+    def binary_search(list, key):
+        low = 0
+        high = len(list) - 1
 
-    while low <= high:
-        mid = (low + high) // 2
-        midVal = list[mid]
-        if midVal == key:
-            return mid
-        if midVal > key:
-            high = mid - 1
-        else:
-            low = mid + 1
-    return 'not found :('
+        while low <= high:
+            mid = (low + high) // 2
+            midVal = list[mid]
+            if midVal == key:
+                return mid
+            if midVal > key:
+                high = mid - 1
+            else:
+                low = mid + 1
+
+        return 'not found'
+
   
 :arrow_up:[к оглавлению](.README.md#Оглавление)
 
