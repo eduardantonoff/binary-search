@@ -54,3 +54,19 @@ def binary_search(list, key):
             low = mid + 1
 
     return 'not found'
+```
+</details>
+
+
+
+### Results: <a name="results"></a>
+
+The results of the project are...
+
+
+### Conclusions: <a name="conclusions"></a>
+
+In conclusion, we have learned...
+
+
+[To begining](#contents)
