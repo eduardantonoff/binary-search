@@ -1,31 +1,6 @@
 # MIPT Project 1 : Number Guessing
 
 
-
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-
-
-
 ### Contents <a name="contents"></a>
 
 [1. About](#about)  
@@ -35,17 +10,16 @@
 [5. Summary](#conclusions)  
 [6. References](#references)  
 
-### Requirements
-
-- Python 3.x
-- NumPy 1.19.5
-
-
 ### About <a name="about"></a> 
 \
 This project is a Python program that guesses a randomly generated number with the fewest possible attempts.
 > **Note**
 > This is a learning experience. The primary purpose of this project is to explore GitHub environment and gain proficiency in formatting and meeting 'README' requirements.
+
+#### Requirements
+
+* Python 3.x   
+* NumPy 1.19.5
  
 
 ### Project Description <a name="description"></a>   
