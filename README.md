@@ -12,7 +12,12 @@
 
 ### About <a name="about"></a> 
 \
-This project is a Python program that guesses a randomly generated number with the fewest possible attempts.
+This project contains a Python implementation of the binary search algorithm for guessing a target number between 1 and 100. The `binary_search_algorithm.py` file contains two functions: `binary_predict()` and `score_game()`.
+
+The `binary_predict()` function implements the binary search algorithm to guess a target number. 
+
+The `score_game()` function evaluates the performance of the `binary_predict()` function by running it 1000 times with random numbers between 1 and 100. 
+
 > **Note**
 > This is a learning experience. The primary purpose of this project is to explore GitHub environment and gain proficiency in formatting and meeting 'README' requirements.
 
@@ -79,7 +84,7 @@ The following assumes zero indexing, meaning that the left-most element of a lis
 
 2. Compare the value of that middle element with the target value.
 
-![Image](binary_search_depict.png)
+![Image](binary_search_depiction.png)
 
 3. If the target value is equal to the middle element, return that it is true the element is in the list (if the position of the element in the list is desired, return the index as well).
 
