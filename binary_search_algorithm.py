@@ -67,3 +67,7 @@ def score_game(binary_predict) -> int:
 
     # 6. Return the average number of attempts over all trials.
     return score
+
+if __name__ == "__main__":
+    # Run
+    score_game(binary_predict)
