@@ -21,17 +21,6 @@ The `score_game()` function evaluates the performance of the `binary_predict()` 
 > **Note**
 > This is a learning experience. The primary purpose of this project is to explore GitHub environment and gain proficiency in formatting and meeting 'README' requirements.
 
-
-<details>
-  <summary><b>&nbsp;
-  requirements:
-  </b></summary>
-
-  - Python 3.x
-  - NumPy 1.19.5
-
-</details>
-
 ### Project Description <a name="description"></a>   
 \
 **Objective:**
@@ -104,6 +93,16 @@ Based on the results, I can conclude that the binary search algorithm is an effe
 ### References: <a name="references"></a>
 
 Wikipedia: [Binary Search Algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm).
+
+<!-- <details>
+  <summary><b>&nbsp;
+  requirements:
+  </b></summary>
+
+  - Python 3.x
+  - NumPy 1.19.5
+
+</details> -->
 
 
 [Back to the Top](#contents)
