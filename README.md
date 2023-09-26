@@ -1,5 +1,31 @@
 # MIPT Project 1 : Number Guessing
 
+
+
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+
+
+
 ### Contents <a name="contents"></a>
 
 [1. About](#about)  
@@ -67,24 +93,23 @@ def binary_search(list, key):
 \
 In simple terms, the algorithm works as follows:
 
+<span style="background-color: #00ff00;">pip</span>
 
 The following assumes zero indexing, meaning that the left-most element of a list is the 
 0<sup>th</sup> element.
 
-1. Determine the middle element of a sorted list by taking the value of the floor of $\frac{low + high}{2}$, where low is the lowest index of the list, and high is the highest index in the list. So in the list [1,2,3,4],2 (since 2 occurs at index 1) would be the middle. In the list [1,2,3,4,5], 3 (since 3 occurs at index 2) is the middle.    
+1. Determine the middle element of a sorted list by taking the value of the floor of $\frac{low + high}{2}$, where low is the lowest index of the list, and high is the highest index in the list. So in the list `[ 1,2,3,4 ]`,2 (since 2 occurs at index 1) would be the middle. In the list `[ 1,2,3,4,5 ]`, 3 (since 3 occurs at index 2) is the middle.    
 
 2. Compare the value of that middle element with the target value.
+
 
 ![Image](binary_search_depiction.png)
 
 
-
-
-![Image](!binary_search_img.png)
-
-
 3. If the target value is equal to the middle element, return that it is true the element is in the list (if the position of the element in the list is desired, return the index as well).
+
 4. If the target value is less than the middle element, eliminate all elements to the right of (and including) the middle element from the search, and return to step one with this smaller search space.
+
 5. If the target value is greater than the middle element, eliminate all the elements to the left of (and including) the middle element from the search, and return to step one with this smaller search space.
 
 ### Results: <a name="results"></a>
