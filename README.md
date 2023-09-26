@@ -16,11 +16,16 @@ This project is a Python program that guesses a randomly generated number with t
 > **Note**
 > This is a learning experience. The primary purpose of this project is to explore GitHub environment and gain proficiency in formatting and meeting 'README' requirements.
 
-#### Requirements
 
-* Python 3.x   
-* NumPy 1.19.5
- 
+<details>
+  <summary><b>&nbsp;
+  requirements:
+  </b></summary>
+
+  - Python 3.x
+  - NumPy 1.19.5
+
+</details>
 
 ### Project Description <a name="description"></a>   
 \
@@ -43,7 +48,7 @@ The program employs a binary search algorithm to guess the number. This algorith
 \
 Binary search looks through a sorted list to see if a desired element is in the list. It does this efficiently by halving the search space during each iteration of the program. Basically, binary search finds the middle of the list, asks “is the element I’m looking for larger or smaller than this?” Then it cuts the search space in the list in half and searches only in the left list if the element is smaller, and searches only in the right list if the element is bigger. It repeats this process until it finds the element it is looking for (or reports back that the element isn’t in the list at all). The algorithm uses a divide and conquer (or divide and reduce) approach to search. 
 
-<details><summary><b>Implementation Example:</b></summary>
+#### Implementation Example:
 
 ```py
 def binary_search(list, key):
@@ -62,7 +67,6 @@ def binary_search(list, key):
 
     return 'not found'
 ```
-</details>
 
 \
 _In simple terms, the algorithm works as follows:_
@@ -91,7 +95,7 @@ The average number of attempts it took to guess the number was 5.
 
 Based on the results, I can conclude that the binary search algorithm is an effective way to guess a randomly generated number with the fewest possible attempts. We also learned how to use GitHub and how to write efficient Python code.
 
-### References: <a name="conclusions"></a>
+### References: <a name="references"></a>
 
 Wikipedia: [Binary Search Algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm).
 
