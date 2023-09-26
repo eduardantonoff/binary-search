@@ -79,7 +79,7 @@ The following assumes zero indexing, meaning that the left-most element of a lis
 
 2. Compare the value of that middle element with the target value.
 
-![Image](binary_search_sample.png)
+![Image](binary_search_depiction.png)
 
 3. If the target value is equal to the middle element, return that it is true the element is in the list (if the position of the element in the list is desired, return the index as well).
 
