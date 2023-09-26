@@ -1,34 +1,41 @@
-# MIPT Project 1 : Number Guessing & Binary Search
+# MIPT Project 1 : Number Guessing
 
 ### Contents <a name="contents"></a>
+
 [1. About](#about)  
-[2. Why?](#why)  
-[3. Process](#process)  
+[2. Project Description](#description)  
+[3. Process & Findings](#process)  
 [4. Results](#results)    
-[5. Conclusions](#conclusions) 
+[5. Summary](#conclusions)  
+[6. References](#references)  
 
-### About <a name="about"></a>
+
+### About <a name="about"></a>         
 > **Note**
-> This is a learning experience.
+> This is a learning experience. The primary purpose of this project is to explore GitHub environment and gain proficiency in formatting and meeting 'README' requirements.
 
-  
-*Угадать загаданное компьютером число за минимальное число попыток.*
+This project is a Python program that guesses a randomly generated number with the fewest possible attempts. 
 
-### Why? <a name="why"></a>   
-Нужно написать программу, которая угадывает число за минимальное число попыток
+### Project Description <a name="description"></a>   
 
-**Условия соревнования:**  
-- Компьютер загадывает целое число от 0 до 100, и нам его нужно угадать. Под «угадать», подразумевается «написать программу, которая угадывает число».
-- Алгоритм учитывает информацию о том, больше ли случайное число или меньше нужного нам.
+**Objective:**
+Develop a program capable of guessing a number in the fewest possible attempts.
 
-**Метрика качества**     
-Результаты оцениваются по среднему количеству попыток при 1000 повторений
+**Conditions:**
+- The computer randomly selects an integer between 0 and 100, and your task is to guess it. By "guess," we mean "write a program that can guess the number."
+- The algorithm takes into account whether the random number is greater or less than the desired number.
 
-**Что практикуем**     
-- Учимся писать хороший код на Python
+**Quality Metric:**
+Results will be evaluated based on the average number of attempts over 1000 repetitions.
+
+**What We Practice:**
+- Gaining proficiency in writing efficient Python code.
+
+The program employs a binary search algorithm to guess the number. This algorithm adjusts its guesses based on whether the randomly generated number is greater or less than the current guess. We conducted 1000 trials of the program and recorded the average number of attempts required to guess the number.
 
 
-### Process <a name="process"></a>
+
+### Process & Findings <a name="process"></a>
 
 <mark>Двоичный (бинарный)</mark> поиск (также известен как метод деления пополам или дихотомия) — классический алгоритм поиска элемента в отсортированном массиве (векторе), использующий дробление массива на половины. 
 
@@ -61,12 +68,15 @@ def binary_search(list, key):
 
 ### Results: <a name="results"></a>
 
-The results of the project are...
+The average number of attempts it took to guess the number was 5.
 
 
 ### Conclusions: <a name="conclusions"></a>
 
-In conclusion, we have learned...
+Based on the results, I can conclude that the binary search algorithm is an effective way to guess a randomly generated number with the fewest possible attempts. We also learned how to use GitHub and how to write efficient Python code.
 
+### References: <a name="conclusions"></a>
 
-[To begining](#contents)
+Wikipedia: [Binary Search Algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm).
+
+[Back to the ](#contents)
