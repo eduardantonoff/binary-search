@@ -10,14 +10,15 @@
 [6. References](#references)  
 
 
-### About <a name="about"></a>         
+### About <a name="about"></a> 
+\
+This project is a Python program that guesses a randomly generated number with the fewest possible attempts.
 > **Note**
 > This is a learning experience. The primary purpose of this project is to explore GitHub environment and gain proficiency in formatting and meeting 'README' requirements.
-
-This project is a Python program that guesses a randomly generated number with the fewest possible attempts. 
+ 
 
 ### Project Description <a name="description"></a>   
-
+\
 **Objective:**
 Develop a program capable of guessing a number in the fewest possible attempts.
 
@@ -33,11 +34,23 @@ Results will be evaluated based on the average number of attempts over 1000 repe
 
 The program employs a binary search algorithm to guess the number. This algorithm adjusts its guesses based on whether the randomly generated number is greater or less than the current guess. We conducted 1000 trials of the program and recorded the average number of attempts required to guess the number.
 
-
-
 ### Process & Findings <a name="process"></a>
+\
+Binary search looks through a sorted list to see if a desired element is in the list. It does this efficiently by halving the search space during each iteration of the program. Basically, binary search finds the middle of the list, asks “is the element I’m looking for larger or smaller than this?” Then it cuts the search space in the list in half and searches only in the left list if the element is smaller, and searches only in the right list if the element is bigger. It repeats this process until it finds the element it is looking for (or reports back that the element isn’t in the list at all). The algorithm uses a divide and conquer (or divide and reduce) approach to search. 
 
-<mark>Двоичный (бинарный)</mark> поиск (также известен как метод деления пополам или дихотомия) — классический алгоритм поиска элемента в отсортированном массиве (векторе), использующий дробление массива на половины. 
+
+In simple terms, the algorithm works as follows:
+
+
+The following assumes zero indexing, meaning that the left-most element of a list is the 
+0<sup>th</sup> element.
+
+* Determine the middle element of a sorted list by taking the value of the floor of $\frac{low + high}{2}$, where low is the lowest index of the list, and high is the highest index in the list. So in the list [1,2,3,4],2 (since 2 occurs at index 1) would be the middle. In the list [1,2,3,4,5], 3 (since 3 occurs at index 2) is the middle.    
+
+* Compare the value of that middle element with the target value.
+* If the target value is equal to the middle element, return that it is true the element is in the list (if the position of the element in the list is desired, return the index as well).
+* If the target value is less than the middle element, eliminate all elements to the right of (and including) the middle element from the search, and return to step one with this smaller search space.
+* If the target value is greater than the middle element, eliminate all the elements to the left of (and including) the middle element from the search, and return to step one with this smaller search space.
 
 ![Image](binary_search_depiction.png)
 
@@ -79,4 +92,6 @@ Based on the results, I can conclude that the binary search algorithm is an effe
 
 Wikipedia: [Binary Search Algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm).
 
-[Back to the ](#contents)
+Youtube: [Binary Search Algorithm](https://www.youtube.com/watch?v=MFhxShGxHWc).
+
+[Back to the Top](#contents)
