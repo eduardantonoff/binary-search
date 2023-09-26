@@ -9,6 +9,11 @@
 [5. Summary](#conclusions)  
 [6. References](#references)  
 
+### Requirements
+
+- Python 3.x
+- NumPy 1.19.5
+
 
 ### About <a name="about"></a> 
 \
