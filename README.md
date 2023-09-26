@@ -65,20 +65,16 @@ def binary_search(list, key):
 </details>
 
 \
-In simple terms, the algorithm works as follows:
+_In simple terms, the algorithm works as follows:_
 
-<span style="background-color: #00ff00;">pip</span>
 
 The following assumes zero indexing, meaning that the left-most element of a list is the 
 0<sup>th</sup> element.
 
-1. Determine the middle element of a sorted list by taking the value of the floor of $\frac{low + high}{2}$, where low is the lowest index of the list, and high is the highest index in the list. So in the list `[ 1,2,3,4 ]`,2 (since 2 occurs at index 1) would be the middle. In the list `[ 1,2,3,4,5 ]`, 3 (since 3 occurs at index 2) is the middle.    
+1. Determine the middle element of a sorted list by taking the value of the floor of `low + high // 2`, where low is the lowest index of the list, and high is the highest index in the list. So in the list `[ 1,2,3,4 ]`, 2 (since 2 occurs at index 1) would be the middle. In the list `[ 1,2,3,4,5 ]`, 3 (since 3 occurs at index 2) is the middle.    
 
 2. Compare the value of that middle element with the target value.
-
-
 ![Image](binary_search_depiction.png)
-
 
 3. If the target value is equal to the middle element, return that it is true the element is in the list (if the position of the element in the list is desired, return the index as well).
 
@@ -99,6 +95,5 @@ Based on the results, I can conclude that the binary search algorithm is an effe
 
 Wikipedia: [Binary Search Algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm).
 
-Youtube: [Binary Search Algorithm in 100 sec](https://www.youtube.com/watch?v=MFhxShGxHWc).
 
 [Back to the Top](#contents)
