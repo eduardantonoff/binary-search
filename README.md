@@ -38,25 +38,7 @@ The program employs a binary search algorithm to guess the number. This algorith
 \
 Binary search looks through a sorted list to see if a desired element is in the list. It does this efficiently by halving the search space during each iteration of the program. Basically, binary search finds the middle of the list, asks “is the element I’m looking for larger or smaller than this?” Then it cuts the search space in the list in half and searches only in the left list if the element is smaller, and searches only in the right list if the element is bigger. It repeats this process until it finds the element it is looking for (or reports back that the element isn’t in the list at all). The algorithm uses a divide and conquer (or divide and reduce) approach to search. 
 
-
-In simple terms, the algorithm works as follows:
-
-
-The following assumes zero indexing, meaning that the left-most element of a list is the 
-0<sup>th</sup> element.
-
-* Determine the middle element of a sorted list by taking the value of the floor of $\frac{low + high}{2}$, where low is the lowest index of the list, and high is the highest index in the list. So in the list [1,2,3,4],2 (since 2 occurs at index 1) would be the middle. In the list [1,2,3,4,5], 3 (since 3 occurs at index 2) is the middle.    
-
-* Compare the value of that middle element with the target value.
-* If the target value is equal to the middle element, return that it is true the element is in the list (if the position of the element in the list is desired, return the index as well).
-* If the target value is less than the middle element, eliminate all elements to the right of (and including) the middle element from the search, and return to step one with this smaller search space.
-* If the target value is greater than the middle element, eliminate all the elements to the left of (and including) the middle element from the search, and return to step one with this smaller search space.
-
-![Image](binary_search_depiction.png)
-
-<p align="center">Визуализация бинарного поиска по массиву.</p>
-
-<details><summary><b>Пример реализации:</b></summary>
+<details><summary><b>Implementation Example:</b></summary>
 
 ```py
 def binary_search(list, key):
@@ -77,7 +59,23 @@ def binary_search(list, key):
 ```
 </details>
 
+\
+In simple terms, the algorithm works as follows:
 
+
+The following assumes zero indexing, meaning that the left-most element of a list is the 
+0<sup>th</sup> element.
+
+1. Determine the middle element of a sorted list by taking the value of the floor of $\frac{low + high}{2}$, where low is the lowest index of the list, and high is the highest index in the list. So in the list [1,2,3,4],2 (since 2 occurs at index 1) would be the middle. In the list [1,2,3,4,5], 3 (since 3 occurs at index 2) is the middle.    
+
+2. Compare the value of that middle element with the target value.
+\
+![Image](binary_search_depiction.png)
+
+
+3. If the target value is equal to the middle element, return that it is true the element is in the list (if the position of the element in the list is desired, return the index as well).
+4. If the target value is less than the middle element, eliminate all elements to the right of (and including) the middle element from the search, and return to step one with this smaller search space.
+5. If the target value is greater than the middle element, eliminate all the elements to the left of (and including) the middle element from the search, and return to step one with this smaller search space.
 
 ### Results: <a name="results"></a>
 
@@ -92,6 +90,6 @@ Based on the results, I can conclude that the binary search algorithm is an effe
 
 Wikipedia: [Binary Search Algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm).
 
-Youtube: [Binary Search Algorithm](https://www.youtube.com/watch?v=MFhxShGxHWc).
+Youtube: [Binary Search Algorithm in 100 sec](https://www.youtube.com/watch?v=MFhxShGxHWc).
 
 [Back to the Top](#contents)
