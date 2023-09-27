@@ -14,9 +14,7 @@
 \
 This project contains a Python implementation of the binary search algorithm for guessing a target number between 1 and 100. The `binary_search_algorithm.py` file contains two functions: `binary_search()` and `num_generator()`.
 
-The `binary_search()` function implements the binary search algorithm to guess a target number. 
-
-The `num_generator()` function evaluates the performance of the `binary_search()` function by running it 1000 times with random numbers between 1 and 100. 
+The `binary_search()` function implements the binary search algorithm to guess a target number. The `num_generator()` function evaluates the performance of the `binary_search()` function by running it 1000 times with random numbers between 1 and 100. 
 
 > **Note**
 > This is a learning experience. The primary purpose of this project is to explore GitHub environment and gain proficiency in formatting and meeting 'README' requirements.
@@ -28,7 +26,7 @@ Develop a program capable of guessing a number in the fewest possible attempts.
 
 **Conditions:**
 
-- The `np.random.randint` generates a random array of 1000 integers between 1 and 100. Next an integer a random integer between 0 and 100 is selected, and out task is to find quickesat way to guess it.
+- The `np.random.randint` generates a random array of 1000 integers between 1 and 100. The next step is to select a random integer between 0 and 100, and the task is to find the quickest way to guess it.
 
 - The algorithm takes into account whether the random number is greater or less than the desired number.
 
@@ -41,7 +39,7 @@ Results will be evaluated based on the average number of attempts over 1000 repe
 - Gaining proficiency in writing efficient Python code.
 - Getting familiar with GitHub environment.
 - Learning README functionality and desgin.
-- Applying NumPy knowlegde aquired on SF.
+- Applying NumPy knowledge aquired on SF.
 
 
 <!-- The program employs a binary search algorithm to guess the number. This algorithm adjusts its guesses based on whether the randomly generated number is greater or less than the current guess. We conducted 1000 trials of the program and recorded the average number of attempts required to guess the number. -->
@@ -101,6 +99,8 @@ Based on the results, I can conclude that the binary search algorithm is an effe
 ### References: <a name="references"></a>
 
 Wikipedia: [Binary Search Algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm).
+
+Wrtiitng on GitHub: [Basic writing and formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 <!-- <details>
   <summary><b>&nbsp;
