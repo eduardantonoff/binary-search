@@ -1,6 +1,5 @@
 # MIPT Project 1 : Number Guessing
 
-
 ### Contents <a name="contents"></a>
 
 [1. About](#about)  
@@ -17,7 +16,7 @@ This project contains a Python implementation of the binary search algorithm for
 The `binary_search()` function implements the binary search algorithm to guess a target number. The `num_generator()` function evaluates the performance of the `binary_search()` function by running it 1000 times with random numbers between 1 and 100. 
 
 > **Note**
-> This is a learning experience. The primary purpose of this project is to explore GitHub environment and gain proficiency in formatting and meeting 'README' requirements.
+> This is a learning experience. The primary purpose of this project was to explore the GitHub environment, understand how to write an informative README, and enhance Python coding skills.
 
 ### Project Description <a name="description"></a>   
 \
@@ -36,17 +35,17 @@ Results will be evaluated based on the average number of attempts over 1000 repe
 
 **Outcomes:**
 
-- Gaining proficiency in writing efficient Python code.
-- Getting familiar with GitHub environment.
-- Learning README functionality and desgin.
-- Applying NumPy knowledge aquired on SF.
-
-
-<!-- The program employs a binary search algorithm to guess the number. This algorithm adjusts its guesses based on whether the randomly generated number is greater or less than the current guess. We conducted 1000 trials of the program and recorded the average number of attempts required to guess the number. -->
+- Gained a foundational understanding of the Binary Search Algorithm.
+- Attained proficiency in using GitHub environmnet.
+- Improved Python coding skills at a fundamental level.
+- Developed documentation skills for README creation.
+- Applied NumPy tools in practical tasks.
 
 ### Process & Findings <a name="process"></a>
 \
-Binary search looks through a sorted list to see if a desired element is in the list. It does this efficiently by halving the search space during each iteration of the program. Basically, binary search finds the middle of the list, asks “is the element I’m looking for larger or smaller than this?” Then it cuts the search space in the list in half and searches only in the left list if the element is smaller, and searches only in the right list if the element is bigger. It repeats this process until it finds the element it is looking for (or reports back that the element isn’t in the list at all). The algorithm uses a divide and conquer (or divide and reduce) approach to search. 
+The problem at hand was to efficiently guess a randomly generated number between 1 and 100. To accomplish this, I needed a strategy that could minimize the number of attempts.
+
+After careful consideration, the binary search algorithm emerged as the most efficient solution. Binary search looks through a sorted list to see if a desired element is in the list. It does this efficiently by halving the search space during each iteration of the program. Basically, binary search finds the middle of the list, asks “is the element I’m looking for larger or smaller than this?” Then it cuts the search space in the list in half and searches only in the left list if the element is smaller, and searches only in the right list if the element is bigger. It repeats this process until it finds the element it is looking for (or reports back that the element isn’t in the list at all). The algorithm uses a divide and conquer (or divide and reduce) approach to search. 
 
 #### Implementation Example:
 
@@ -87,6 +86,17 @@ The following assumes zero indexing, meaning that the left-most element of a lis
 
 5. If the target value is greater than the middle element, eliminate all the elements to the left of (and including) the middle element from the search, and return to step one with this smaller search space.
 
+The implementation of the binary search algorithm yielded an average of only 5 attempts to guess the randomly generated number over 1000 repetitions, demonstrating its effectiveness in minimizing the number of guesses required.
+
+
+
+#### To Explore Further: 
+- Binary Search vs. Other Schemes
+- Linear Search
+- Binary Search Trees
+- Hashing
+- Other Data Structures
+
 ### Results: <a name="results"></a>
 
 The average number of attempts it took to guess the number was 5.
@@ -94,7 +104,12 @@ The average number of attempts it took to guess the number was 5.
 
 ### Conclusions: <a name="conclusions"></a>
 
-Based on the results, I can conclude that the binary search algorithm is an effective way to guess a randomly generated number with the fewest possible attempts. We also learned how to use GitHub and how to write efficient Python code.
+Based on the results, I can conclude that the binary search algorithm is an effective way to guess a randomly generated number with the fewest possible attempts. I also learned how to use GitHub and how to write efficient Python code.
+
+### Requirements:
+
+- Python 3.6 or higher
+- NumPy 1.19.5
 
 ### References: <a name="references"></a>
 
@@ -112,5 +127,6 @@ Wrtiitng on GitHub: [Basic writing and formatting](https://docs.github.com/en/ge
 
 </details> -->
 
+---
 
-[Back to the Top](#contents)
+<center>[Back to the Top](#contents)</center>

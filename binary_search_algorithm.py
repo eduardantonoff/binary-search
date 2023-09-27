@@ -54,7 +54,7 @@ def num_generator(binary_search) -> int:
     # 2. Generate an array of 1000 random numbers between 1 and 100.
     random_array = np.random.randint(1, 101, size=(1000))
 
-    # 3. Loop over each random number and run the binary_predict function to guess the number.
+    # 3. Loop over each random number and run the binary_search function to guess the number.
     for number in random_array:
         count_lst.append(binary_search(number))
 
