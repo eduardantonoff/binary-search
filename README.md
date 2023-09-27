@@ -6,8 +6,9 @@
 [2. Project Description](#description)  
 [3. Process & Findings](#process)  
 [4. Results](#results)    
-[5. Summary](#conclusions)  
-[6. References](#references)  
+[5. Conclusions](#conclusions)  
+[6. Requirements](#requirements)  
+[7. References](#references)  
 
 ### About <a name="about"></a> 
 \
@@ -32,14 +33,6 @@ Develop a program capable of guessing a number in the fewest possible attempts.
 **Quality Metric:**
 
 Results will be evaluated based on the average number of attempts over 1000 repetitions.
-
-**Outcomes:**
-
-- Gained a foundational understanding of the Binary Search Algorithm.
-- Attained proficiency in using GitHub environmnet.
-- Improved Python coding skills at a fundamental level.
-- Developed documentation skills for README creation.
-- Applied NumPy tools in practical tasks.
 
 ### Process & Findings <a name="process"></a>
 \
@@ -106,7 +99,15 @@ The average number of attempts it took to guess the number was 5.
 
 Based on the results, I can conclude that the binary search algorithm is an effective way to guess a randomly generated number with the fewest possible attempts. I also learned how to use GitHub and how to write efficient Python code.
 
-### Requirements:
+**Outcomes:**
+
+- Gained a foundational understanding of the Binary Search Algorithm.
+- Attained proficiency in using GitHub environmnet.
+- Improved Python coding skills at a fundamental level.
+- Developed documentation skills for README creation.
+- Applied NumPy tools in practical tasks.
+
+### Requirements: <a name="requirements"></a>
 
 - Python 3.6 or higher
 - NumPy 1.19.5
@@ -117,16 +118,5 @@ Wikipedia: [Binary Search Algorithm](https://en.wikipedia.org/wiki/Binary_search
 
 Wrtiitng on GitHub: [Basic writing and formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-<!-- <details>
-  <summary><b>&nbsp;
-  requirements:
-  </b></summary>
-
-  - Python 3.x
-  - NumPy 1.19.5
-
-</details> -->
-
 ---
-
-<center>[Back to the Top](#contents)</center>
+[Back to the Top](#contents)
